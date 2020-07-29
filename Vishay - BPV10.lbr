@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="VISHAY_BPV10_0">
+                    <description>VISHAY SEMICONDUCTOR Wavelength of Peak Sensitivity:920nm</description>
+                    <wire layer="21" y2="-1.2" width="0.3" x2="-2.7" y1="1.2" x1="-2.7"/>
+                    <text layer="25" align="bottom-left" y="2.8" x="-2.625" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="0.0" x="0.0" layer="51" radius="2.95" width="0.15"/>
+                    <circle y="0.0" x="0.0" layer="41" radius="3.05" width="0.0"/>
+                    <circle y="0.0" x="0.0" layer="21" radius="3.05" width="0.15"/>
+                    <pad diameter="1.9" name="1" shape="square" drill="1.25" y="0.0" x="-1.27" rot="R0"/>
+                    <pad diameter="1.9" name="2" shape="round" drill="1.25" y="0.0" x="1.27" rot="R0"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="VISHAY_BPV10_0_0">
+                    <description>VISHAY SEMICONDUCTOR Wavelength of Peak Sensitivity:920nm</description>
+                    <wire layer="94" y2="-12.7" width="0.508" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-12.7" width="0.508" x2="7.62" y1="-7.62" x1="7.62"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="7.62" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="7.62" y1="-12.7" x1="2.54"/>
+                    <wire layer="94" y2="-6.604" width="0.508" x2="5.588" y1="-4.064" x1="8.128"/>
+                    <wire layer="94" y2="-6.604" width="0.508" x2="6.858" y1="-6.604" x1="5.588"/>
+                    <wire layer="94" y2="-5.334" width="0.508" x2="5.588" y1="-6.604" x1="5.588"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="3.81" y1="-3.048" x1="6.35"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="5.08" y1="-5.588" x1="3.81"/>
+                    <wire layer="94" y2="-4.318" width="0.508" x2="3.81" y1="-5.588" x1="3.81"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="2.54" y1="-10.16" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="7.62" y1="-10.16" x1="7.62"/>
+                    <text layer="95" align="top-left" y="-0.762" x="-1.524" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-16.002" x="1.016" rot="R0" size="2.54">BPV10</text>
+                    <pin direction="pas" name="ANODE" visible="pad" length="middle" y="-10.16" x="-2.54"/>
+                    <pin direction="pas" name="CATHODE" visible="pad" length="middle" y="-10.16" x="12.7" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="D" name="VISHAY_BPV10">
+                    <description>VISHAY SEMICONDUCTOR Wavelength of Peak Sensitivity:920nm</description>
+                    <gates>
+                        <gate name="G$0" symbol="VISHAY_BPV10_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="VISHAY_BPV10_0_0" package="VISHAY_BPV10_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="CATHODE"/>
+                                <connect gate="G$0" pad="2" pin="ANODE"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="782-BPV10"/>
+                                    <attribute name="mouser_description" value="Photodiodes 10V 215mW 875nm"/>
+                                    <attribute name="ambient_temperature_range_low" value="-40°C"/>
+                                    <attribute name="dark_current" value="0.001uA"/>
+                                    <attribute name="mfg_package_ident_rev" value="1"/>
+                                    <attribute name="max_junction_temp" value="+100°C"/>
+                                    <attribute name="reverse_breakdown_voltage" value="60V"/>
+                                    <attribute name="temperature_range_high" value="+100°C"/>
+                                    <attribute name="ambient_temperature_range_high" value="+100°C"/>
+                                    <attribute name="digikey_description" value="DIODE SENSOR PHOTODIODE 940NM RADIAL"/>
+                                    <attribute name="device_class_L3" value="Photodiodes"/>
+                                    <attribute name="device_class_L2" value="Optical Sensors"/>
+                                    <attribute name="device_class_L1" value="Sensors"/>
+                                    <attribute name="digikey_part_number" value="751-1001-ND"/>
+                                    <attribute name="prefix" value="D"/>
+                                    <attribute name="forward_current" value="50mA"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="http://www.vishay.com/docs/81502/bpv10.pdf"/>
+                                    <attribute name="power_dissipation" value="215mW"/>
+                                    <attribute name="MPN" value="BPV10"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="12.1mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="6.544-5185.02-4"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="viewing_angle" value="40°"/>
+                                    <attribute name="mfg_package_ident_date" value="07/1996"/>
+                                    <attribute name="response_time" value="2.5ns"/>
+                                    <attribute name="standoff_height" value="2.6mm"/>
+                                    <attribute name="wavelength" value="920nm"/>
+                                    <attribute name="sensor_output" value="Photodiode"/>
+                                    <attribute name="MF" value="Vishay"/>
+                                    <attribute name="package" value="RADIAL"/>
+                                    <attribute name="forward_voltage" value="1V"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
