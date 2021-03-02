@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -80,13 +80,15 @@
 <smd name="P$4" x="2.5" y="-2" dx="1.27" dy="0.635" layer="1"/>
 <smd name="P$5" x="2.5" y="-1" dx="1.27" dy="0.635" layer="1"/>
 <smd name="P$6" x="2.5" y="0" dx="1.27" dy="0.635" layer="1"/>
-<wire x1="0.7" y1="0.6" x2="0.7" y2="-2.6" width="0.1524" layer="52"/>
+<wire x1="0.7" y1="0.3" x2="0.7" y2="-2.6" width="0.1524" layer="52"/>
 <wire x1="0.7" y1="-2.6" x2="1.8" y2="-2.6" width="0.1524" layer="52"/>
 <wire x1="1.8" y1="-2.6" x2="1.8" y2="0.6" width="0.1524" layer="52"/>
 <wire x1="1.8" y1="0.6" x2="0.7" y2="0.6" width="0.1524" layer="52"/>
+<wire x1="0.7" y1="0.6" x2="0.7" y2="0.5" width="0.1524" layer="52"/>
+<wire x1="0.7" y1="0.5" x2="0.7" y2="0.3" width="0.1524" layer="52"/>
 <circle x="1" y="0.3" radius="0.1" width="0.1524" layer="52"/>
-<text x="-0.76" y="-3.43" size="0.6096" layer="51">&gt;NAME</text>
-<text x="-0.76" y="-4.26" size="0.6096" layer="51">MT3608</text>
+<text x="-3.3" y="-4.7" size="1.778" layer="51">&gt;NAME</text>
+<text x="-3.3" y="-6.8" size="1.778" layer="51">MT3608</text>
 </package>
 </packages>
 <symbols>
