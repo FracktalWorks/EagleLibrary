@@ -10,6 +10,7 @@ Eagle Library for FW boards and electronics
  - On the daughter board it should stay clear of high rise components like big capacitors.
  - The names and value for the connectors and components  are to be added to the silkscreen top by including tplace, tOrigin, TName, Tvalue layers during the cam process
  - All test points should be named.
+ - The FFC cable orintation should be determined and the FFC connectors should be oriented correctly
 
 ### Track Width and Via.
 
