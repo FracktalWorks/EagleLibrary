@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC238D
+D Codeurs, dcodeurs, multiplexeurs et dmultiplexeurs 3-TO-8 DECODER DEMULTIPLEXER
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT238.pdf
+$ENDCMP
+#
+#End Doc Library

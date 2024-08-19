@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74HC238D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "74HC238D" (!) = "", "SOIC127P600X175-16N", "Small Outline Packages", "771-74HC238D", "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC238D?qs=JTOGeJziEKGZLH3gr9jJBw%3D%3D", "Codeurs, dcodeurs, multiplexeurs et dmultiplexeurs 3-TO-8 DECODER DEMULTIPLEXER", "https://assets.nexperia.com/documents/data-sheet/74HC_HCT238.pdf", "1.75 mm"
+END_PART
+
+END.

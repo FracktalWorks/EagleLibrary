@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=74HC238D
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=3.1
+Released=2018-08-15 10:37:29
+Downloaded=2023-09-09 21:57:27
+3D=Y

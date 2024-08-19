@@ -1,0 +1,16 @@
+.74HC238D :1 ;Codeurs, dcodeurs, multiplexeurs et dmultiplexeurs 3-TO-8 DECODER DEMULTIPLEXER
+SOIC127P600X175-16N
+*STM IC
+*NGS
+*PLB 1="A0" 2="A1" 3="A2" 4="'E1'" 5="'E2'" 6="E3" 7="Y7" 8="GND" 9="Y6" 10="Y5" 11="Y4" 12="Y3" 13="Y2" 14="Y1" 15="Y0" 16="VCC"
+*MXP 16
+*DFN 74HC238D
+~!Mouser Part Number (771-74HC238D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/74HC238D?qs=JTOGeJziEKGZLH3gr9jJBw%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (74HC238D)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/74HC_HCT238.pdf)
+~!Height (1.75mm)
+~!3D_Model (74HC238D)
+"74HC238D"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 
